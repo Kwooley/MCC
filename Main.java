@@ -31,6 +31,7 @@ public class Main {
 		Integer[] sc = new Integer[Student.N];
 		int i;
 
+		System.out.println("Enter the Student information: ID Name Score1 Score2 Score3 \n");
 		id = scnr.nextInt();
 		name = scnr.next();
 		for (i = 0; i < Student.N; i++)
